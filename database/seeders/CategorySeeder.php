@@ -23,6 +23,7 @@ class CategorySeeder extends Seeder
             'Documentário',
             'Animação',
             'Suspense',
+            'Crime',
         ];
 
         foreach ($categories as $name) {
