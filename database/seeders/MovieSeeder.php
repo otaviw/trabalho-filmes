@@ -23,7 +23,7 @@ class MovieSeeder extends Seeder
                 'year' => 2014,
                 'category_id' => $categories->where('name', 'Ficção Científica')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=2LqzF5WauAw',
-                'cover_image' => 'covers/uel.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'O Poderoso Chefão',
@@ -31,7 +31,7 @@ class MovieSeeder extends Seeder
                 'year' => 1972,
                 'category_id' => $categories->where('name', 'Drama')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=sY1S34973zA',
-                'cover_image' => 'covers/mewtwo.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'Pulp Fiction',
@@ -39,7 +39,7 @@ class MovieSeeder extends Seeder
                 'year' => 1994,
                 'category_id' => $categories->where('name', 'Crime')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=s7EdQ4FqbhY',
-                'cover_image' => 'covers/uel.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'O Senhor dos Anéis: A Sociedade do Anel',
@@ -47,7 +47,7 @@ class MovieSeeder extends Seeder
                 'year' => 2001,
                 'category_id' => $categories->where('name', 'Fantasia')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=V75dMMIW2B4',
-                'cover_image' => 'covers/mewtwo.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'Matrix',
@@ -55,7 +55,7 @@ class MovieSeeder extends Seeder
                 'year' => 1999,
                 'category_id' => $categories->where('name', 'Ficção Científica')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=m8e-FF8MsqU',
-                'cover_image' => 'covers/uel.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'Forrest Gump',
@@ -63,7 +63,7 @@ class MovieSeeder extends Seeder
                 'year' => 1994,
                 'category_id' => $categories->where('name', 'Drama')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=bLvqoHBptjg',
-                'cover_image' => 'covers/mewtwo.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'O Rei Leão',
@@ -71,7 +71,7 @@ class MovieSeeder extends Seeder
                 'year' => 1994,
                 'category_id' => $categories->where('name', 'Animação')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=4sj1MT05lAA',
-                'cover_image' => 'covers/uel.jpg'
+                'cover_image' => 'pinguim.png'
             ],
             [
                 'title' => 'Titanic',
@@ -79,7 +79,7 @@ class MovieSeeder extends Seeder
                 'year' => 1997,
                 'category_id' => $categories->where('name', 'Romance')->first()->id,
                 'trailer_link' => 'https://www.youtube.com/watch?v=2e-eXJ6HgkQ',
-                'cover_image' => 'covers/mewtwo.jpg'
+                'cover_image' => 'pinguim.png'
             ]
         ];
 

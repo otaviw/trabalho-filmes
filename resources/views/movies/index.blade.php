@@ -16,6 +16,9 @@
         <p class="lead mb-4">Descubra uma incrível coleção de filmes</p>
         <div class="d-flex gap-2 justify-content-center">
             @auth
+                <a href="{{ route('categories.create') }}" class="botao-adicionar">
+                    <i class="fas fa-plus"></i> Adicionar Categoria
+                </a>
                 <a href="{{ route('movies.create') }}" class="botao-adicionar">
                     <i class="fas fa-plus"></i> Adicionar Filme
                 </a>
